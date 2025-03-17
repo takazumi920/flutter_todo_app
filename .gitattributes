@@ -1,1 +1,7 @@
-*[c++] linguist-language=[dart]
+# Dart を優先する設定を追加
+*.dart linguist-detectable
+*.dart linguist-language=Dart
+
+# C++ のファイルを言語判定から除外
+android/** linguist-vendored
+ios/** linguist-vendored
